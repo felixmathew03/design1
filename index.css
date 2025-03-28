@@ -6,28 +6,18 @@
 .container{
     width: 100%;
     background-color: aliceblue;
-    position: relative;
 }
 .mainback{
     width: 90%;
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 140vh;
-    gap: 25px;
+    height: auto;
     border-left: 2px solid red;
     border-right: 2px solid red;
-}
-.main{
-    background-color: rgb(255, 227, 227);
+    background-image: repeating-linear-gradient(to right, #F4E8EA 0% 23%, white 23% 25%);
 }
 .maincontent{
     width: 100%;
     background-color: rgba(242, 245, 255, 0.605);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 .top{
     width: 100%;
@@ -251,9 +241,6 @@ nav{
         border-left: none;
         border-right: none;
     }
-    .top{
-        margin-top: 6%;
-    }
     .reach{
         width: 100%;
         height: 100%;
@@ -292,10 +279,6 @@ nav{
         border-left: none;
         border-right: none;
     }
-    .top{
-        margin-top: 50%;
-        padding-bottom: 10%;
-    }
     .reach{
         width: 100%;
         height: 100%;
@@ -311,6 +294,7 @@ nav{
         display: none;
     }
     nav{
+        top: -10%;
         width: 100%;
         border-radius: 0;
     }
