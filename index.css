@@ -11,9 +11,9 @@
     width: 90%;
     margin: auto;
     height: auto;
-    border-left: 2px solid red;
-    border-right: 2px solid red;
-    background-image: repeating-linear-gradient(to right, #F4E8EA 0% 23%, white 23% 25%);
+    border-left: 2px solid rgba(255, 0, 0, 0.69);
+    border-right: 2px solid rgba(255, 0, 0, 0.69);
+    background-image: linear-gradient(to right, #F4E8EA 0% 23%, white 23% 25%,#F4E8EA 25% 48%, white 48% 50%,#F4E8EA 50% 73%, white 73% 75%,#F4E8EA 75% 100%);
 }
 .maincontent{
     width: 100%;
